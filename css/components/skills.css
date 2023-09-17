@@ -1,0 +1,155 @@
+.skills {
+    scroll-margin-top: 3rem;
+    background-color: var(--black-third-color);
+}
+
+.skills .skills__content {
+    padding: 6rem 4rem;
+    text-align: center;
+}
+
+.skills .skills__content .description {
+    max-width: 56rem;
+    margin: 0 auto 6rem;
+}
+
+.skills .skills__content ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    gap: 2rem;
+}
+
+.skills .skills__content ul li .image-container{
+    background-color: var(--gray);
+    padding: 2rem;
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0.4rem 1rem;
+    margin: 0 auto;
+}
+
+.skills .skills__content ul li .image-container img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.skills .skills__content ul li h3{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 2rem 0 1rem;
+    color: var(--first-color);
+}
+
+.skills .skills__content .li {
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    transition: .5rem;
+}
+
+.skills .skills__content .li:hover {
+    cursor: default;
+    transform: translateY(-5px);
+    border: 1px solid var(--second-color);
+    box-shadow: 1px 4px 15px #8be89ec3;
+}
+
+.about-stats {
+    padding: 0.1rem 0.9rem;
+    max-width: 100%;
+    min-width: 50%;
+    max-height: 100%;
+}
+
+.about-stats .progress-bar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+}
+
+.about-stats .progress-bars {
+    flex-direction: column;
+}
+
+.about-stats .progress-bars .prog-title {
+    text-transform: initial;
+    font-weight: 600;
+    color:  var(--text-color-1);
+}
+
+.about-stats .progress-bar .progress-con {
+    display: flex;
+    align-items: center;
+  }
+
+.about-stats .progress-bar .progress-con .prog-text {
+    color: var(--second-color);
+    font-weight: 400;
+}
+
+.about-stats .progress-bar .progress-con .progress {
+    width: 100%;
+    height: 0.35rem;
+    background-color: var(--gray);
+    margin-left: 1rem;
+    position: relative;
+    padding: 0.5rem 2rem 1rem;
+    border-radius: 15px;
+  }
+
+.about-stats .progress-bar .progress-con .progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: var(--third-color);
+    transition: all 0.4s ease-in-out;
+    width: 60%;
+    border-radius: 15px;
+  }
+
+.about-stats .progress-bar .progress-con .progress .power-apps {
+    width: 60%;
+  }
+
+  .about-stats .progress-bars .progress-bar .progress-con .progress .power-flow {
+    width: 30%;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .power-bi {
+    width: 40%;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .power-va {
+    width: 10%;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .html5 {
+    width: 70%;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .css3 {
+    width: 60%;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .js {
+    width: 20%;
+  }
+
+  .about-stats .progress-bars .progress-bar .progress-con .progress .python {
+    width: 30%;
+  }
+
+  .about-stats .progress-bars .progress-bar .progress-con .progress .django {
+    width: 10%;
+  }
+
+  .skills .skills__content .link-certificados {
+    color: var(--third-color);
+    text-decoration: underline;
+  }
+
+  .skills .skills__content .link-certificados:hover {
+    color: var(--gray);
+  }

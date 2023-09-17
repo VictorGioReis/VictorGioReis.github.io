@@ -1,0 +1,140 @@
+.about {
+  display: flex;
+  justify-content: space-around;
+  gap: 4rem;
+  scroll-margin-top: 9rem;
+  top: 0;
+  background-color: var(--black-third-color);
+}
+
+
+.card__left {
+  width: 17em;
+  height: 22.5em;
+  background: #08080D;
+  transition: 1s ease-in-out;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.card__left span {
+  font-weight: bold;
+  color: var(--first-color);
+  text-align: center;
+  display: block;
+  font-size: 1em;
+  padding: 1rem 1rem 1rem;
+}
+
+.card__left .info {
+  font-weight: 500;
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 1em;
+  margin: 0.5rem;
+  top: 0;
+}
+
+.card__left .img {
+  width: 3.8em;
+  height: 3.8em;
+  display: flex;
+  background: var(--text-color-1);
+  border-radius: 15px;
+  margin: auto;
+  padding: 0.5rem;
+}
+
+.card__left .share {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding: 1rem 0 3rem;
+}
+
+.card__left .share img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 40px;
+  height: 40px;
+  transition: .4s ease-in-out;
+}
+
+.card__left .share img:hover {
+  transform: translateY(-20px);
+  box-shadow: 0.1em 0.1em 0.6em 0.2em var(--second-color);
+  cursor: pointer;
+}
+
+.card__right {
+  width: 17em;
+  height: 22.5em;
+  background: #08080D;
+  transition: 1s ease-in-out;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.card__right span {
+  font-weight: bold;
+  color: var(--first-color);
+  text-align: center;
+  display: block;
+  font-size: 1em;
+  padding: 1rem 1rem 1rem;
+}
+
+.card__right .info {
+  font-weight: 500;
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 1em;
+  margin: 0.5rem;
+  top: 0;
+}
+
+.card__right .img {
+  width: 3.8em;
+  height: 3.8em;
+  display: flex;
+  background: var(--text-color-1);
+  border-radius: 15px;
+  margin: auto;
+  padding: 0.5rem;
+}
+
+.card__right .share {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding: 0 0 3rem;
+}
+
+.card__right .share img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 40px;
+  height: 40px;
+  transition: .4s ease-in-out;
+}
+
+.card__right .share img:hover {
+  transform: translateY(-20px);
+  box-shadow: 0.1em 0.1em 0.6em 0.2em var(--second-color);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+}
