@@ -223,7 +223,7 @@ header {
     header .header__left .intro {
         align-items: left;
         padding: 0 !important;
-        margin-left: -1rem !important;
+        margin-left: -2rem !important;
     }
 
     header .header__right  {
@@ -235,7 +235,7 @@ header {
        margin-left: -9.5rem !important;
        margin-right: 0 !important; 
        margin-bottom: -5rem !important;
-       margin-top: -30rem !important;
+       margin-top: -31rem !important;
     }
 
     header .header__right .header__image {
