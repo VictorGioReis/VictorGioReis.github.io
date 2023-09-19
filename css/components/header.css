@@ -208,57 +208,40 @@ header {
 @media only screen and (max-width: 768px) {
     header {
         flex-direction: column-reverse;
-        align-items: center;
-        
+        scroll-margin-top: 0 !important;
     }
 
     header .header__left {
-        align-items: center;
-        justify-content: center;
-        padding: 1rem !important;
+        position: relative;
     }
 
     header .header__left .separator {
-        margin-left: 1rem !important;
+        margin: 1rem;
+        scroll-margin-top: 1rem;
     }
 
+    header .header__left .intro {
+        align-items: left;
+        padding: 0 !important;
+        margin-left: -1rem !important;
+    }
 
     header .header__right  {
-        align-items: center;
-        justify-content: center;
-        padding: 1rem 1rem 3rem;
+        position: relative;
     }
 
     header .header__right .bg-image {
-        margin-left: 4rem !important;
+       display: block;
+       margin-left: -9.5rem !important;
+       margin-right: 0 !important; 
+       margin-bottom: -5rem !important;
+       margin-top: -30rem !important;
     }
 
     header .header__right .header__image {
-        margin: 1rem 0 0 !important;
+        display: block;
+        margin-left: -13.5rem !important;
+        
     }
 
-    header .header__right .header__image .personal__image {
-        max-width: 100%;
-        max-height: 100%; 
-    }
-
-    header .header__right .header__image .personal__image img {
-        width: 25rem;
-        height: 25rem;
-    }
-
-
-    header .header__right p {
-        margin: 2rem 6rem 2rem;
-    }
-
-    header .header__right h4 {
-        padding: 0 4rem 0;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    header {
-        grid-template-columns: repeat(1,1fr);
-    }
 }
