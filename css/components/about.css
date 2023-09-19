@@ -1,7 +1,8 @@
 .about {
+  max-width: 100%;
+  max-height: 100%;
   display: flex;
-  justify-content: space-around;
-  gap: 4rem;
+  justify-content: space-evenly;
   scroll-margin-top: 9rem;
   top: 0;
   background-color: var(--black-third-color);
@@ -11,11 +12,10 @@
 .card__left {
   width: 17em;
   height: 22.5em;
-  background: #08080D;
+  box-shadow: 0 0.4rem 1rem;
   transition: 1s ease-in-out;
-  border-radius: 20px;
+  border-radius: 5px;
   align-items: center;
-  justify-content: flex-start;
   flex-direction: column;
 }
 
@@ -42,8 +42,8 @@
   width: 3.8em;
   height: 3.8em;
   display: flex;
-  background: var(--text-color-1);
-  border-radius: 15px;
+  background: var(--white);
+  border-radius: 5px;
   margin: auto;
   padding: 0.5rem;
 }
@@ -54,6 +54,7 @@
   justify-content: center;
   gap: 1em;
   padding: 1rem 0 3rem;
+  border-radius: 5px;
 }
 
 .card__left .share img {
@@ -62,6 +63,7 @@
   width: 40px;
   height: 40px;
   transition: .4s ease-in-out;
+  border-radius: 5px;
 }
 
 .card__left .share img:hover {
@@ -73,9 +75,9 @@
 .card__right {
   width: 17em;
   height: 22.5em;
-  background: #08080D;
   transition: 1s ease-in-out;
-  border-radius: 20px;
+  box-shadow: 0 0.4rem 1rem;
+  border-radius: 5px;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
@@ -104,8 +106,8 @@
   width: 3.8em;
   height: 3.8em;
   display: flex;
-  background: var(--text-color-1);
-  border-radius: 15px;
+  background: var(--white);
+  border-radius: 5px;
   margin: auto;
   padding: 0.5rem;
 }
@@ -124,6 +126,7 @@
   width: 40px;
   height: 40px;
   transition: .4s ease-in-out;
+  border-radius: 5px;
 }
 
 .card__right .share img:hover {
@@ -136,5 +139,6 @@
   .about {
     flex-direction: column;
     align-items: center;
+    gap: 4rem;
   }
 }

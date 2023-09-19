@@ -32,6 +32,7 @@
     font-weight: 400;
     color: var(--gray);
   }
+  
   .secondary-title {
     font-size: 4rem;
     font-weight: 700;
@@ -60,10 +61,9 @@
 
   .max-width {
     width: 100%;
-    max-width: 120rem;
     padding: 0 4rem;
     margin: 0 auto;
-    margin-bottom: 26rem;
+    margin-bottom: 15rem;
   }
   
   .mb-0 {
