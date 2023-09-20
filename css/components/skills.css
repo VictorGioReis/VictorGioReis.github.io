@@ -19,6 +19,10 @@
     gap: 2rem;
 }
 
+.skills .skills__content ul li {
+  list-style-type: none;
+}
+
 .skills .skills__content ul li .image-container{
     background-color: var(--gray);
     padding: 2rem;
