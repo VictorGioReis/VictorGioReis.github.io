@@ -14,9 +14,9 @@
 }
 
 .skills .skills__content ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
-    gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 4rem;
 }
 
 .skills .skills__content ul li {
@@ -159,12 +159,9 @@
   }
 
   @media only screen and (max-width: 768px) {
-    skills {
-      flex-direction: column;
-    }
-
     .skills .skills__content ul {
-      margin-left: -3rem !important;
+      display: flex;
+      flex-direction: column;
     }
 
   }
