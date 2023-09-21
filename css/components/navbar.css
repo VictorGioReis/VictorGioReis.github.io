@@ -57,13 +57,17 @@
 
    .navbar {
     position: fixed;
-    height: 9rem;
-    top: 86%;
+    height: 10rem;
+    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     background: var(--text-color-0);
-    box-shadow: 1px 1px 4px var(--black-first-color);
+    box-shadow: 1px 1px 0px var(--first-color);
    }
     
     .navbar .navbar__content .logo {
@@ -79,7 +83,7 @@
         align-items: center;
         text-align: center;
         gap: 2rem;
-        margin: -2.5rem 0 0;
+        margin: 0.5px 0 0;
     }
 
     .navbar .navbar__content .navbar__mobile p {
