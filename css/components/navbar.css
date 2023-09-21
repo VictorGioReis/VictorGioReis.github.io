@@ -56,6 +56,7 @@
 @media only screen and  (max-width: 635px) {
 
    .navbar {
+    position: fixed;
     height: 9rem;
     top: 86%;
     left: 0;
@@ -84,6 +85,7 @@
     .navbar .navbar__content .navbar__mobile p {
         font-weight: 600;
         color: var(--first-color);
+        padding: -20rem 0 0;
     }
 
     .navbar .navbar__content .navbar__mobile .navbar__mob:hover {
@@ -91,7 +93,6 @@
     }
 
     .navbar .navbar__content .navbar__mobile img:hover {
-
         border-radius: 50%;
         background-color: var(--third-color);
     }
