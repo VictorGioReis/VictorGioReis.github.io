@@ -54,24 +54,20 @@
 }
 
 @media only screen and  (max-width: 635px) {
-
-   .navbar {
-    position: fixed;
-    height: 10rem;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background: var(--text-color-0);
-    box-shadow: 1px 1px 0px var(--first-color);
-   }
+    .navbar {
+        background-color: var(--navbar-mobile);
+    }
+   
     
     .navbar .navbar__content .logo {
         display: none;
+    }
+
+    .navbar .navbar__content {
+        position: fixed;
+        bottom: 0;
+        background-color: var(--black-second-color);
+        box-shadow: 7px 2px 8px var(--first-color);
     }
 
     .navbar .navbar__content .navbar__mobile {
