@@ -33,6 +33,20 @@ footer .footer__content ul img {
     gap: 2rem;
 }
 
+footer .footer__content .footer_ul {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0 3rem;
+    gap: 1.5rem;
+}
+
+footer .footer__content .footer_ul .footer_li:hover {
+    transform: translateY(-5px);
+    border-radius: 15px;
+    background-color: var(--black-second-color);
+    box-shadow: 1px 4px 15px #8be89ec3;
+}
+
 footer .footer__content .footer__copyright {
     font-size: 1.4rem;
 }
