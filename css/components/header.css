@@ -153,7 +153,8 @@ header {
 .header__right .bg-image {
     width: 33rem;
     height: 29rem;
-    background-color: var(--black-first-color);
+    background-color: rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
     color: var(--second-color);
     box-shadow: 1px 4px 15px 3px var(--second-color);
     border-radius: 5px;
